@@ -1,0 +1,21 @@
+# ML Workflow Assignment
+
+## Task 1
+
+**Label Column:**  
+`repeat_purchase_flag`  
+*Justification:* This column represents the target variable we want to predict, indicating whether a customer makes a repeat purchase within 30 days.
+
+**Data Leakage Column:**  
+`discount_used_on_repeat_order`  
+*Justification:* This column contains information about the repeat purchase itself, which would not be available at prediction time and would leak future information into the model.
+
+---
+
+## Task 2
+
+**1. Exploratory Data Analysis (EDA):**  
+*Why it matters:* EDA helps in understanding the dataset, identifying missing values, detecting outliers, and discovering relationships between features before building a model.
+
+**2. Data Preprocessing / Feature Engineering:**  
+*Why it matters:* Proper preprocessing like handling missing values, scaling, and feature creation ensures the model receives clean and meaningful data, improving performance and reliability.
